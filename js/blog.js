@@ -21,7 +21,7 @@ function renderPosts() {
                 <h5 class="card-title">${post.title}</h5>
                 <p class="card-text">${post.body.slice(0,90)}...</p>
                 <button class="btn btn-primary" onclick="updatePost(${post.id})">Update <i class="bi bi-pencil"></i></button>
-                <a href="/Introduction-to-API-Task/view.html?id=${post.id}" class="btn btn-success">View <i class="bi bi-binoculars-fill"></i></a>
+                <a href="/Introduction-to-API-Task/View.html?id=${post.id}" class="btn btn-success">View <i class="bi bi-binoculars-fill"></i></a>
                 <button class="btn btn-danger btn-block" onclick="deletePost(${post.id})">Delete <i class="bi bi-trash3-fill"></i></button>
               </div>
             </div>
